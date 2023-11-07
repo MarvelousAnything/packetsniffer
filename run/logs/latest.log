@@ -1,0 +1,828 @@
+[09:22:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:22:24] [ServerMain/INFO]: Loaded 7 recipes
+[09:22:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[09:22:25] [Server thread/INFO]: Loading properties
+[09:22:25] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[09:22:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:22:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:22:25] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[09:22:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[09:22:25] [Server thread/INFO]: Default game type: CREATIVE
+[09:22:25] [Server thread/INFO]: Generating keypair
+[09:22:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:22:25] [Server thread/INFO]: Using default channel type
+[09:22:25] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[09:22:25] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[09:22:25] [Server thread/INFO]: [PacketSniffer] Loading server plugin packetsniffer v1.0-SNAPSHOT
+[09:22:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:22:25] [Server thread/INFO]: [PacketSniffer] Enabling packetsniffer v1.0-SNAPSHOT
+[09:22:25] [Server thread/INFO]: [PacketSniffer] PacketSnifferEnabled
+[09:22:25] [Server thread/INFO]: [PacketSniffer] HTTPServer started on port 9940
+[09:22:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:22:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:22:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:22:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:22:25] [Server thread/INFO]: Preparing level "world"
+[09:22:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:22:26] [Server thread/INFO]: Time elapsed: 102 ms
+[09:22:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:22:26] [Server thread/INFO]: Time elapsed: 19 ms
+[09:22:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:22:26] [Server thread/INFO]: Time elapsed: 45 ms
+[09:22:26] [Server thread/INFO]: Running delayed init tasks
+[09:22:26] [Server thread/INFO]: Done (1.177s)! For help, type "help"
+[09:22:26] [Server thread/INFO]: Timings Reset
+[09:23:07] [User Authenticator #0/INFO]: UUID of player MarvelousAny is 6f99eb8d-5e7c-3a86-bd03-66284ecd8c90
+[09:23:07] [Server thread/INFO]: MarvelousAny joined the game
+[09:23:07] [Server thread/INFO]: MarvelousAny[/127.0.0.1:55822] logged in with entity id 297 at ([world]-4.5, 65.0, 8.5)
+[09:23:13] [User Authenticator #0/INFO]: UUID of player Player0000 is ab761290-7fc7-34f8-84f0-ec12b9690242
+[09:23:13] [Server thread/INFO]: Player0000 joined the game
+[09:23:13] [Server thread/INFO]: Player0000[/127.0.0.1:55828] logged in with entity id 342 at ([world]9.5, 69.0, -9.5)
+[09:23:13] [User Authenticator #0/INFO]: UUID of player Player0001 is 9d6917b1-5b41-3d41-b1ca-4c4efcf34571
+[09:23:13] [Server thread/INFO]: Player0001 joined the game
+[09:23:13] [Server thread/INFO]: Player0001[/127.0.0.1:55830] logged in with entity id 343 at ([world]-3.5, 69.0, -4.5)
+[09:23:13] [User Authenticator #0/INFO]: UUID of player Player0002 is 1ecf24d5-5fb8-36cc-84bc-06f0f4bf78d7
+[09:23:13] [Server thread/INFO]: Player0002 joined the game
+[09:23:13] [Server thread/INFO]: Player0002[/127.0.0.1:55832] logged in with entity id 345 at ([world]4.5, 64.0, 1.5)
+[09:23:13] [User Authenticator #0/INFO]: UUID of player Player0003 is c368170b-ead2-361b-93f2-3b695c017788
+[09:23:13] [Server thread/INFO]: Player0003 joined the game
+[09:23:13] [Server thread/INFO]: Player0003[/127.0.0.1:55833] logged in with entity id 346 at ([world]10.5, 73.0, 8.5)
+[09:23:13] [User Authenticator #0/INFO]: UUID of player Player0004 is 7cbc6a8a-e3b1-3cb7-a0d9-a7ae2dea95f9
+[09:23:13] [Server thread/INFO]: Player0004 joined the game
+[09:23:13] [Server thread/INFO]: Player0004[/127.0.0.1:55834] logged in with entity id 347 at ([world]7.5, 64.0, 3.5)
+[09:23:13] [User Authenticator #0/INFO]: UUID of player Player0005 is f3cf23b9-ecbc-3e08-b442-0b2e3c0c0739
+[09:23:13] [Server thread/INFO]: Player0005 joined the game
+[09:23:13] [Server thread/INFO]: Player0005[/127.0.0.1:55835] logged in with entity id 348 at ([world]-9.5, 68.0, 3.5)
+[09:23:13] [User Authenticator #0/INFO]: UUID of player Player0006 is 10a5966e-cf00-3fbb-a361-f1c7fb9d042c
+[09:23:14] [Server thread/INFO]: Player0006 joined the game
+[09:23:14] [Server thread/INFO]: Player0006[/127.0.0.1:55836] logged in with entity id 349 at ([world]-1.5, 64.0, 6.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0007 is 218a7d45-0e3f-313b-b0f1-ddad3b926838
+[09:23:14] [Server thread/INFO]: Player0007 joined the game
+[09:23:14] [Server thread/INFO]: Player0007[/127.0.0.1:55839] logged in with entity id 350 at ([world]10.5, 69.0, -9.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0008 is f55709ae-30d2-345f-9625-c4df5ec4d9a6
+[09:23:14] [Server thread/INFO]: Player0008 joined the game
+[09:23:14] [Server thread/INFO]: Player0008[/127.0.0.1:55840] logged in with entity id 351 at ([world]-0.5, 64.0, -6.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0009 is b172082a-1d57-3fd5-8688-f2dce0772e90
+[09:23:14] [Server thread/INFO]: Player0009 joined the game
+[09:23:14] [Server thread/INFO]: Player0009[/127.0.0.1:55841] logged in with entity id 352 at ([world]-8.5, 64.0, -8.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0010 is aea0bca1-8f26-3164-9212-3c9c7434c0c8
+[09:23:14] [Server thread/INFO]: Player0010 joined the game
+[09:23:14] [Server thread/INFO]: Player0010[/127.0.0.1:55842] logged in with entity id 353 at ([world]-7.5, 64.0, -1.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0011 is 79a27b57-72bb-35ad-a3b5-5b1768300c7a
+[09:23:14] [Server thread/INFO]: Player0011 joined the game
+[09:23:14] [Server thread/INFO]: Player0011[/127.0.0.1:55843] logged in with entity id 355 at ([world]5.5, 64.0, 4.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0012 is 0f96386e-b807-39e8-8e03-2a6721dbb877
+[09:23:14] [Server thread/INFO]: Player0012 joined the game
+[09:23:14] [Server thread/INFO]: Player0012[/127.0.0.1:55844] logged in with entity id 356 at ([world]4.5, 64.0, -5.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0013 is 24b4d4de-03d5-3d16-ab0a-24d08378e4c7
+[09:23:14] [Server thread/INFO]: Player0013 joined the game
+[09:23:14] [Server thread/INFO]: Player0013[/127.0.0.1:55845] logged in with entity id 357 at ([world]0.5, 65.0, 7.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0014 is d6f51258-ac39-320b-9ac1-7433cde81589
+[09:23:14] [Server thread/INFO]: Player0014 joined the game
+[09:23:14] [Server thread/INFO]: Player0014[/127.0.0.1:55846] logged in with entity id 358 at ([world]-7.5, 68.0, 6.5)
+[09:23:14] [User Authenticator #0/INFO]: UUID of player Player0015 is 1553d934-2461-3ee8-97ea-296fda188edf
+[09:23:14] [Server thread/INFO]: Player0015 joined the game
+[09:23:14] [Server thread/INFO]: Player0015[/127.0.0.1:55847] logged in with entity id 359 at ([world]8.5, 64.0, -1.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0016 is 71cf56e4-d503-3bbd-bfac-2e7683e0909b
+[09:23:15] [Server thread/INFO]: Player0016 joined the game
+[09:23:15] [Server thread/INFO]: Player0016[/127.0.0.1:55848] logged in with entity id 360 at ([world]-8.5, 64.0, -1.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0017 is d32026a7-b0e7-3340-8d39-ec5721016c88
+[09:23:15] [Server thread/INFO]: Player0017 joined the game
+[09:23:15] [Server thread/INFO]: Player0017[/127.0.0.1:55849] logged in with entity id 361 at ([world]-0.5, 64.0, 5.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0018 is e5c691b7-ea0d-3967-a92c-407951f49f49
+[09:23:15] [Server thread/INFO]: Player0018 joined the game
+[09:23:15] [Server thread/INFO]: Player0018[/127.0.0.1:55850] logged in with entity id 373 at ([world]-2.5, 65.0, 7.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0019 is 37a413c5-b61c-3960-942e-37b7826b664d
+[09:23:15] [Server thread/INFO]: Player0019 joined the game
+[09:23:15] [Server thread/INFO]: Player0019[/127.0.0.1:55851] logged in with entity id 374 at ([world]-8.5, 67.0, 3.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0020 is 93afbae0-9eae-3e5b-914b-cd13a3730e9d
+[09:23:15] [Server thread/INFO]: Player0020 joined the game
+[09:23:15] [Server thread/INFO]: Player0020[/127.0.0.1:55852] logged in with entity id 376 at ([world]-7.5, 68.0, 5.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0021 is 2d00fbef-ae7f-3ac4-9158-ec120e69dbba
+[09:23:15] [Server thread/INFO]: Player0021 joined the game
+[09:23:15] [Server thread/INFO]: Player0021[/127.0.0.1:55853] logged in with entity id 377 at ([world]5.5, 64.0, 4.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0022 is 02110d87-ed68-317e-947a-bc4b8c9de524
+[09:23:15] [Server thread/INFO]: Player0022 joined the game
+[09:23:15] [Server thread/INFO]: Player0022[/127.0.0.1:55854] logged in with entity id 378 at ([world]-5.5, 70.0, -6.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0023 is 43227aed-24b7-3fc8-91ce-1786e3fdda99
+[09:23:15] [Server thread/INFO]: Player0023 joined the game
+[09:23:15] [Server thread/INFO]: Player0023[/127.0.0.1:55856] logged in with entity id 379 at ([world]-0.5, 64.0, 6.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0024 is 13509dac-fd85-3ae7-8d17-652574cd3e32
+[09:23:15] [Server thread/INFO]: Player0024 joined the game
+[09:23:15] [Server thread/INFO]: Player0024[/127.0.0.1:55857] logged in with entity id 380 at ([world]-3.5, 64.0, 6.5)
+[09:23:15] [User Authenticator #0/INFO]: UUID of player Player0025 is af99ba9e-0855-3703-bdbe-f850c1bb318b
+[09:23:15] [Server thread/INFO]: Player0025 joined the game
+[09:23:15] [Server thread/INFO]: Player0025[/127.0.0.1:55858] logged in with entity id 381 at ([world]10.5, 73.0, 6.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0026 is 1ff4cca5-8058-386b-b836-346afd71cb2b
+[09:23:16] [Server thread/INFO]: Player0026 joined the game
+[09:23:16] [Server thread/INFO]: Player0026[/127.0.0.1:55859] logged in with entity id 382 at ([world]-8.5, 67.0, 2.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0027 is 494f7093-fb54-392e-8ef4-f266357589d6
+[09:23:16] [Server thread/INFO]: Player0027 joined the game
+[09:23:16] [Server thread/INFO]: Player0027[/127.0.0.1:55860] logged in with entity id 383 at ([world]6.5, 69.0, -0.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0028 is 01d5eec3-b1fd-3300-81af-2d7a4aa1cf7c
+[09:23:16] [Server thread/INFO]: Player0028 joined the game
+[09:23:16] [Server thread/INFO]: Player0028[/127.0.0.1:55861] logged in with entity id 385 at ([world]-2.5, 69.0, 0.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0029 is 998f2101-635c-3b40-adb1-d26c501609f3
+[09:23:16] [Server thread/INFO]: Player0029 joined the game
+[09:23:16] [Server thread/INFO]: Player0029[/127.0.0.1:55862] logged in with entity id 386 at ([world]-6.5, 68.0, 5.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0030 is 6ace46fa-8af8-32e4-b576-bf656e4fce2a
+[09:23:16] [Server thread/INFO]: Player0030 joined the game
+[09:23:16] [Server thread/INFO]: Player0030[/127.0.0.1:55863] logged in with entity id 387 at ([world]7.5, 67.0, 8.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0031 is 950a785f-32a3-37be-a66a-76e172f5d4bf
+[09:23:16] [Server thread/INFO]: Player0031 joined the game
+[09:23:16] [Server thread/INFO]: Player0031[/127.0.0.1:55864] logged in with entity id 391 at ([world]2.5, 64.0, -2.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0032 is e11aca1f-991d-39ae-9244-7f2058a3de6e
+[09:23:16] [Server thread/INFO]: Player0032 joined the game
+[09:23:16] [Server thread/INFO]: Player0032[/127.0.0.1:55867] logged in with entity id 392 at ([world]8.5, 68.0, -7.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0033 is 9b3f78c1-6bb4-3377-86ba-c263e9bf5828
+[09:23:16] [Server thread/INFO]: Player0033 joined the game
+[09:23:16] [Server thread/INFO]: Player0033[/127.0.0.1:55868] logged in with entity id 393 at ([world]1.5, 64.0, -3.5)
+[09:23:16] [User Authenticator #0/INFO]: UUID of player Player0034 is 1c2c57ff-2e09-3321-9851-b6b8904c969a
+[09:23:16] [Server thread/INFO]: Player0034 joined the game
+[09:23:16] [Server thread/INFO]: Player0034[/127.0.0.1:55869] logged in with entity id 394 at ([world]-9.5, 67.0, -0.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0035 is f94ee3ba-48ae-3125-ad47-43c8584e47ae
+[09:23:17] [Server thread/INFO]: Player0035 joined the game
+[09:23:17] [Server thread/INFO]: Player0035[/127.0.0.1:55870] logged in with entity id 395 at ([world]6.5, 64.0, -8.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0036 is f27a685b-8872-3c1b-afc8-f367ab20da7e
+[09:23:17] [Server thread/INFO]: Player0036 joined the game
+[09:23:17] [Server thread/INFO]: Player0036[/127.0.0.1:55871] logged in with entity id 396 at ([world]9.5, 64.0, 1.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0037 is a009f5c2-ffdb-347d-b157-da08d8c4b089
+[09:23:17] [Server thread/INFO]: Player0037 joined the game
+[09:23:17] [Server thread/INFO]: Player0037[/127.0.0.1:55872] logged in with entity id 398 at ([world]-5.5, 68.0, 1.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0038 is f1759c76-bf4e-33aa-bdf5-7c7c40c17c1c
+[09:23:17] [Server thread/INFO]: Player0038 joined the game
+[09:23:17] [Server thread/INFO]: Player0038[/127.0.0.1:55873] logged in with entity id 399 at ([world]1.5, 64.0, 1.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0039 is 43fd148a-47b1-36f5-b077-f6eb6ab15967
+[09:23:17] [Server thread/INFO]: Player0039 joined the game
+[09:23:17] [Server thread/INFO]: Player0039[/127.0.0.1:55874] logged in with entity id 400 at ([world]3.5, 71.0, -9.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0040 is ef9d7e8d-9177-3106-b2e7-b0a1a46450cc
+[09:23:17] [Server thread/INFO]: Player0040 joined the game
+[09:23:17] [Server thread/INFO]: Player0040[/127.0.0.1:55875] logged in with entity id 401 at ([world]-6.5, 70.0, 10.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0041 is 1024b6af-c44b-3bf8-ac37-e7b582d302a2
+[09:23:17] [Server thread/INFO]: Player0041 joined the game
+[09:23:17] [Server thread/INFO]: Player0041[/127.0.0.1:55876] logged in with entity id 403 at ([world]-9.5, 68.0, 4.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0042 is 8d4baae9-eec8-35f4-88a9-2e150ac2715e
+[09:23:17] [Server thread/INFO]: Player0042 joined the game
+[09:23:17] [Server thread/INFO]: Player0042[/127.0.0.1:55877] logged in with entity id 405 at ([world]6.5, 69.0, 0.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0043 is 77b1b018-39b9-3e55-b2ea-d7f3ecbf72d0
+[09:23:17] [Server thread/INFO]: Player0043 joined the game
+[09:23:17] [Server thread/INFO]: Player0043[/127.0.0.1:55878] logged in with entity id 406 at ([world]5.5, 69.0, -9.5)
+[09:23:17] [User Authenticator #0/INFO]: UUID of player Player0044 is e46b2919-4bf4-3bd1-aa36-05d52b00e17b
+[09:23:17] [Server thread/INFO]: Player0044 joined the game
+[09:23:17] [Server thread/INFO]: Player0044[/127.0.0.1:55879] logged in with entity id 411 at ([world]-7.5, 68.0, 5.5)
+[09:23:18] [User Authenticator #0/INFO]: UUID of player Player0045 is 355893cf-4037-34d2-8ca6-05b5e27f1f43
+[09:23:18] [Server thread/INFO]: Player0045 joined the game
+[09:23:18] [Server thread/INFO]: Player0045[/127.0.0.1:55881] logged in with entity id 414 at ([world]2.5, 64.0, 1.5)
+[09:23:18] [User Authenticator #0/INFO]: UUID of player Player0046 is 3816fc8b-f1ef-37f5-a05d-e68e689962cf
+[09:23:18] [Server thread/INFO]: Player0046 joined the game
+[09:23:18] [Server thread/INFO]: Player0046[/127.0.0.1:55882] logged in with entity id 415 at ([world]8.5, 70.0, -6.5)
+[09:23:18] [User Authenticator #0/INFO]: UUID of player Player0047 is d30e16e0-ee28-35fa-9c42-cda9c5464741
+[09:23:18] [Server thread/INFO]: Player0047 joined the game
+[09:23:18] [Server thread/INFO]: Player0047[/127.0.0.1:55883] logged in with entity id 416 at ([world]-6.5, 69.0, 3.5)
+[09:23:18] [User Authenticator #0/INFO]: UUID of player Player0048 is 22671617-aad1-30c4-8e34-f82296554ff7
+[09:23:18] [Server thread/INFO]: Player0048 joined the game
+[09:23:18] [Server thread/INFO]: Player0048[/127.0.0.1:55884] logged in with entity id 417 at ([world]9.5, 70.0, -5.5)
+[09:23:18] [User Authenticator #0/INFO]: UUID of player Player0049 is 5a3a0034-8005-345b-9383-f5ead049b516
+[09:23:18] [Server thread/INFO]: Player0049 joined the game
+[09:23:18] [Server thread/INFO]: Player0049[/127.0.0.1:55885] logged in with entity id 418 at ([world]-7.5, 64.0, -1.5)
+[09:23:55] [Server thread/INFO]: MarvelousAny lost connection: Disconnected
+[09:23:55] [Server thread/INFO]: MarvelousAny left the game
+[09:24:33] [User Authenticator #1/INFO]: UUID of player MarvelousAny is 6f99eb8d-5e7c-3a86-bd03-66284ecd8c90
+[09:24:33] [Server thread/INFO]: MarvelousAny joined the game
+[09:24:33] [Server thread/INFO]: MarvelousAny[/127.0.0.1:55959] logged in with entity id 563 at ([world]2.7749976246105175, 64.0, 2.8441147686744723)
+[09:32:13] [Server thread/INFO]: Player0000 lost connection: Disconnected
+[09:32:13] [Server thread/INFO]: Player0000 left the game
+[09:32:13] [Server thread/INFO]: Player0001 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0001 left the game
+[09:32:14] [Server thread/INFO]: Player0002 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0002 left the game
+[09:32:14] [Server thread/INFO]: Player0003 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0003 left the game
+[09:32:14] [Server thread/INFO]: Player0004 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0004 left the game
+[09:32:14] [Server thread/INFO]: Player0005 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0005 left the game
+[09:32:14] [Server thread/INFO]: Player0006 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0006 left the game
+[09:32:14] [Server thread/INFO]: Player0007 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0007 left the game
+[09:32:14] [Server thread/INFO]: Player0008 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0008 left the game
+[09:32:14] [Server thread/INFO]: Player0009 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0009 left the game
+[09:32:14] [Server thread/INFO]: Player0010 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0010 left the game
+[09:32:14] [Server thread/INFO]: Player0011 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0011 left the game
+[09:32:14] [Server thread/INFO]: Player0012 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0012 left the game
+[09:32:14] [Server thread/INFO]: Player0013 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0013 left the game
+[09:32:14] [Server thread/INFO]: Player0014 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0014 left the game
+[09:32:14] [Server thread/INFO]: Player0015 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0015 left the game
+[09:32:14] [Server thread/INFO]: Player0016 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0016 left the game
+[09:32:14] [Server thread/INFO]: Player0017 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0017 left the game
+[09:32:14] [Server thread/INFO]: Player0018 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0018 left the game
+[09:32:14] [Server thread/INFO]: Player0019 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0019 left the game
+[09:32:14] [Server thread/INFO]: Player0020 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0020 left the game
+[09:32:14] [Server thread/INFO]: Player0021 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0021 left the game
+[09:32:14] [Server thread/INFO]: Player0022 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0022 left the game
+[09:32:14] [Server thread/INFO]: Player0023 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0023 left the game
+[09:32:14] [Server thread/INFO]: Player0024 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0024 left the game
+[09:32:14] [Server thread/INFO]: Player0025 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0025 left the game
+[09:32:14] [Server thread/INFO]: Player0026 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0026 left the game
+[09:32:14] [Server thread/INFO]: Player0027 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0027 left the game
+[09:32:14] [Server thread/INFO]: Player0028 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0028 left the game
+[09:32:14] [Server thread/INFO]: Player0029 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0029 left the game
+[09:32:14] [Server thread/INFO]: Player0030 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0030 left the game
+[09:32:14] [Server thread/INFO]: Player0031 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0031 left the game
+[09:32:14] [Server thread/INFO]: Player0032 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0032 left the game
+[09:32:14] [Server thread/INFO]: Player0033 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0033 left the game
+[09:32:14] [Server thread/INFO]: Player0034 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0034 left the game
+[09:32:14] [Server thread/INFO]: Player0035 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0035 left the game
+[09:32:14] [Server thread/INFO]: Player0036 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0036 left the game
+[09:32:14] [Server thread/INFO]: Player0037 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0037 left the game
+[09:32:14] [Server thread/INFO]: Player0038 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0038 left the game
+[09:32:14] [Server thread/INFO]: Player0039 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0039 left the game
+[09:32:14] [Server thread/INFO]: Player0040 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0040 left the game
+[09:32:14] [Server thread/INFO]: Player0041 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0041 left the game
+[09:32:14] [Server thread/INFO]: Player0042 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0042 left the game
+[09:32:14] [Server thread/INFO]: Player0043 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0043 left the game
+[09:32:14] [Server thread/INFO]: Player0044 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0044 left the game
+[09:32:14] [Server thread/INFO]: Player0045 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0045 left the game
+[09:32:14] [Server thread/INFO]: Player0046 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0046 left the game
+[09:32:14] [Server thread/INFO]: Player0047 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0047 left the game
+[09:32:14] [Server thread/INFO]: Player0048 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0048 left the game
+[09:32:14] [Server thread/INFO]: Player0049 lost connection: Disconnected
+[09:32:14] [Server thread/INFO]: Player0049 left the game
+[09:32:17] [User Authenticator #2/INFO]: UUID of player Player0000 is ab761290-7fc7-34f8-84f0-ec12b9690242
+[09:32:17] [Server thread/INFO]: Player0000 joined the game
+[09:32:17] [Server thread/INFO]: Player0000[/127.0.0.1:56249] logged in with entity id 1665 at ([world]9.5, 69.0, -9.5)
+[09:32:17] [User Authenticator #2/INFO]: UUID of player Player0001 is 9d6917b1-5b41-3d41-b1ca-4c4efcf34571
+[09:32:17] [Server thread/INFO]: Player0001 joined the game
+[09:32:17] [Server thread/INFO]: Player0001[/127.0.0.1:56250] logged in with entity id 1669 at ([world]-3.5, 69.0, -4.5)
+[09:32:17] [User Authenticator #2/INFO]: UUID of player Player0002 is 1ecf24d5-5fb8-36cc-84bc-06f0f4bf78d7
+[09:32:17] [Server thread/INFO]: Player0002 joined the game
+[09:32:17] [Server thread/INFO]: Player0002[/127.0.0.1:56251] logged in with entity id 1672 at ([world]4.5, 64.0, 1.5)
+[09:32:17] [User Authenticator #2/INFO]: UUID of player Player0003 is c368170b-ead2-361b-93f2-3b695c017788
+[09:32:17] [Server thread/INFO]: Player0003 joined the game
+[09:32:17] [Server thread/INFO]: Player0003[/127.0.0.1:56252] logged in with entity id 1677 at ([world]10.5, 73.0, 8.5)
+[09:32:17] [User Authenticator #2/INFO]: UUID of player Player0004 is 7cbc6a8a-e3b1-3cb7-a0d9-a7ae2dea95f9
+[09:32:17] [Server thread/INFO]: Player0004 joined the game
+[09:32:17] [Server thread/INFO]: Player0004[/127.0.0.1:56253] logged in with entity id 1679 at ([world]7.5, 64.0, 3.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0005 is f3cf23b9-ecbc-3e08-b442-0b2e3c0c0739
+[09:32:18] [Server thread/INFO]: Player0005 joined the game
+[09:32:18] [Server thread/INFO]: Player0005[/127.0.0.1:56254] logged in with entity id 1680 at ([world]-9.5, 68.0, 3.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0006 is 10a5966e-cf00-3fbb-a361-f1c7fb9d042c
+[09:32:18] [Server thread/INFO]: Player0006 joined the game
+[09:32:18] [Server thread/INFO]: Player0006[/127.0.0.1:56255] logged in with entity id 1684 at ([world]-1.5, 64.0, 6.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0007 is 218a7d45-0e3f-313b-b0f1-ddad3b926838
+[09:32:18] [Server thread/INFO]: Player0007 joined the game
+[09:32:18] [Server thread/INFO]: Player0007[/127.0.0.1:56256] logged in with entity id 1687 at ([world]10.5, 69.0, -9.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0008 is f55709ae-30d2-345f-9625-c4df5ec4d9a6
+[09:32:18] [Server thread/INFO]: Player0008 joined the game
+[09:32:18] [Server thread/INFO]: Player0008[/127.0.0.1:56257] logged in with entity id 1692 at ([world]-0.5, 64.0, -6.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0009 is b172082a-1d57-3fd5-8688-f2dce0772e90
+[09:32:18] [Server thread/INFO]: Player0009 joined the game
+[09:32:18] [Server thread/INFO]: Player0009[/127.0.0.1:56258] logged in with entity id 1693 at ([world]-8.5, 64.0, -8.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0010 is aea0bca1-8f26-3164-9212-3c9c7434c0c8
+[09:32:18] [Server thread/INFO]: Player0010 joined the game
+[09:32:18] [Server thread/INFO]: Player0010[/127.0.0.1:56259] logged in with entity id 1694 at ([world]-7.5, 64.0, -1.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0011 is 79a27b57-72bb-35ad-a3b5-5b1768300c7a
+[09:32:18] [Server thread/INFO]: Player0011 joined the game
+[09:32:18] [Server thread/INFO]: Player0011[/127.0.0.1:56260] logged in with entity id 1695 at ([world]5.5, 64.0, 4.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0012 is 0f96386e-b807-39e8-8e03-2a6721dbb877
+[09:32:18] [Server thread/INFO]: Player0012 joined the game
+[09:32:18] [Server thread/INFO]: Player0012[/127.0.0.1:56261] logged in with entity id 1698 at ([world]4.5, 64.0, -5.5)
+[09:32:18] [User Authenticator #2/INFO]: UUID of player Player0013 is 24b4d4de-03d5-3d16-ab0a-24d08378e4c7
+[09:32:18] [Server thread/INFO]: Player0013 joined the game
+[09:32:18] [Server thread/INFO]: Player0013[/127.0.0.1:56262] logged in with entity id 1700 at ([world]0.5, 65.0, 7.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0014 is d6f51258-ac39-320b-9ac1-7433cde81589
+[09:32:19] [Server thread/INFO]: Player0014 joined the game
+[09:32:19] [Server thread/INFO]: Player0014[/127.0.0.1:56263] logged in with entity id 1701 at ([world]-7.5, 68.0, 6.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0015 is 1553d934-2461-3ee8-97ea-296fda188edf
+[09:32:19] [Server thread/INFO]: Player0015 joined the game
+[09:32:19] [Server thread/INFO]: Player0015[/127.0.0.1:56264] logged in with entity id 1704 at ([world]8.5, 64.0, -1.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0016 is 71cf56e4-d503-3bbd-bfac-2e7683e0909b
+[09:32:19] [Server thread/INFO]: Player0016 joined the game
+[09:32:19] [Server thread/INFO]: Player0016[/127.0.0.1:56265] logged in with entity id 1706 at ([world]-8.5, 64.0, -1.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0017 is d32026a7-b0e7-3340-8d39-ec5721016c88
+[09:32:19] [Server thread/INFO]: Player0017 joined the game
+[09:32:19] [Server thread/INFO]: Player0017[/127.0.0.1:56266] logged in with entity id 1708 at ([world]-0.5, 64.0, 5.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0018 is e5c691b7-ea0d-3967-a92c-407951f49f49
+[09:32:19] [Server thread/INFO]: Player0018 joined the game
+[09:32:19] [Server thread/INFO]: Player0018[/127.0.0.1:56267] logged in with entity id 1710 at ([world]-2.5, 65.0, 7.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0019 is 37a413c5-b61c-3960-942e-37b7826b664d
+[09:32:19] [Server thread/INFO]: Player0019 joined the game
+[09:32:19] [Server thread/INFO]: Player0019[/127.0.0.1:56268] logged in with entity id 1712 at ([world]-8.5, 67.0, 3.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0020 is 93afbae0-9eae-3e5b-914b-cd13a3730e9d
+[09:32:19] [Server thread/INFO]: Player0020 joined the game
+[09:32:19] [Server thread/INFO]: Player0020[/127.0.0.1:56269] logged in with entity id 1714 at ([world]-7.5, 68.0, 5.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0021 is 2d00fbef-ae7f-3ac4-9158-ec120e69dbba
+[09:32:19] [Server thread/INFO]: Player0021 joined the game
+[09:32:19] [Server thread/INFO]: Player0021[/127.0.0.1:56270] logged in with entity id 1716 at ([world]5.5, 64.0, 4.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0022 is 02110d87-ed68-317e-947a-bc4b8c9de524
+[09:32:19] [Server thread/INFO]: Player0022 joined the game
+[09:32:19] [Server thread/INFO]: Player0022[/127.0.0.1:56271] logged in with entity id 1717 at ([world]-5.5, 70.0, -6.5)
+[09:32:19] [User Authenticator #2/INFO]: UUID of player Player0023 is 43227aed-24b7-3fc8-91ce-1786e3fdda99
+[09:32:19] [Server thread/INFO]: Player0023 joined the game
+[09:32:19] [Server thread/INFO]: Player0023[/127.0.0.1:56272] logged in with entity id 1718 at ([world]-0.5, 64.0, 6.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0024 is 13509dac-fd85-3ae7-8d17-652574cd3e32
+[09:32:20] [Server thread/INFO]: Player0024 joined the game
+[09:32:20] [Server thread/INFO]: Player0024[/127.0.0.1:56273] logged in with entity id 1719 at ([world]-3.5, 64.0, 6.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0025 is af99ba9e-0855-3703-bdbe-f850c1bb318b
+[09:32:20] [Server thread/INFO]: Player0025 joined the game
+[09:32:20] [Server thread/INFO]: Player0025[/127.0.0.1:56274] logged in with entity id 1720 at ([world]10.5, 73.0, 6.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0026 is 1ff4cca5-8058-386b-b836-346afd71cb2b
+[09:32:20] [Server thread/INFO]: Player0026 joined the game
+[09:32:20] [Server thread/INFO]: Player0026[/127.0.0.1:56276] logged in with entity id 1721 at ([world]-8.5, 67.0, 2.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0027 is 494f7093-fb54-392e-8ef4-f266357589d6
+[09:32:20] [Server thread/INFO]: Player0027 joined the game
+[09:32:20] [Server thread/INFO]: Player0027[/127.0.0.1:56277] logged in with entity id 1722 at ([world]6.5, 69.0, -0.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0028 is 01d5eec3-b1fd-3300-81af-2d7a4aa1cf7c
+[09:32:20] [Server thread/INFO]: Player0028 joined the game
+[09:32:20] [Server thread/INFO]: Player0028[/127.0.0.1:56278] logged in with entity id 1723 at ([world]-2.5, 69.0, 0.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0029 is 998f2101-635c-3b40-adb1-d26c501609f3
+[09:32:20] [Server thread/INFO]: Player0029 joined the game
+[09:32:20] [Server thread/INFO]: Player0029[/127.0.0.1:56279] logged in with entity id 1724 at ([world]-6.5, 68.0, 5.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0030 is 6ace46fa-8af8-32e4-b576-bf656e4fce2a
+[09:32:20] [Server thread/INFO]: Player0030 joined the game
+[09:32:20] [Server thread/INFO]: Player0030[/127.0.0.1:56280] logged in with entity id 1726 at ([world]7.5, 67.0, 8.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0031 is 950a785f-32a3-37be-a66a-76e172f5d4bf
+[09:32:20] [Server thread/INFO]: Player0031 joined the game
+[09:32:20] [Server thread/INFO]: Player0031[/127.0.0.1:56283] logged in with entity id 1727 at ([world]2.5, 64.0, -2.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0032 is e11aca1f-991d-39ae-9244-7f2058a3de6e
+[09:32:20] [Server thread/INFO]: Player0032 joined the game
+[09:32:20] [Server thread/INFO]: Player0032[/127.0.0.1:56284] logged in with entity id 1728 at ([world]8.5, 68.0, -7.5)
+[09:32:20] [User Authenticator #2/INFO]: UUID of player Player0033 is 9b3f78c1-6bb4-3377-86ba-c263e9bf5828
+[09:32:20] [Server thread/INFO]: Player0033 joined the game
+[09:32:21] [Server thread/INFO]: Player0033[/127.0.0.1:56285] logged in with entity id 1730 at ([world]1.5, 64.0, -3.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0034 is 1c2c57ff-2e09-3321-9851-b6b8904c969a
+[09:32:21] [Server thread/INFO]: Player0034 joined the game
+[09:32:21] [Server thread/INFO]: Player0034[/127.0.0.1:56286] logged in with entity id 1731 at ([world]-9.5, 67.0, -0.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0035 is f94ee3ba-48ae-3125-ad47-43c8584e47ae
+[09:32:21] [Server thread/INFO]: Player0035 joined the game
+[09:32:21] [Server thread/INFO]: Player0035[/127.0.0.1:56287] logged in with entity id 1732 at ([world]6.5, 64.0, -8.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0036 is f27a685b-8872-3c1b-afc8-f367ab20da7e
+[09:32:21] [Server thread/INFO]: Player0036 joined the game
+[09:32:21] [Server thread/INFO]: Player0036[/127.0.0.1:56288] logged in with entity id 1733 at ([world]9.5, 64.0, 1.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0037 is a009f5c2-ffdb-347d-b157-da08d8c4b089
+[09:32:21] [Server thread/INFO]: Player0037 joined the game
+[09:32:21] [Server thread/INFO]: Player0037[/127.0.0.1:56289] logged in with entity id 1734 at ([world]-5.5, 68.0, 1.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0038 is f1759c76-bf4e-33aa-bdf5-7c7c40c17c1c
+[09:32:21] [Server thread/INFO]: Player0038 joined the game
+[09:32:21] [Server thread/INFO]: Player0038[/127.0.0.1:56290] logged in with entity id 1735 at ([world]1.5, 64.0, 1.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0039 is 43fd148a-47b1-36f5-b077-f6eb6ab15967
+[09:32:21] [Server thread/INFO]: Player0039 joined the game
+[09:32:21] [Server thread/INFO]: Player0039[/127.0.0.1:56291] logged in with entity id 1736 at ([world]3.5, 71.0, -9.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0040 is ef9d7e8d-9177-3106-b2e7-b0a1a46450cc
+[09:32:21] [Server thread/INFO]: Player0040 joined the game
+[09:32:21] [Server thread/INFO]: Player0040[/127.0.0.1:56292] logged in with entity id 1738 at ([world]-6.5, 70.0, 10.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0041 is 1024b6af-c44b-3bf8-ac37-e7b582d302a2
+[09:32:21] [Server thread/INFO]: Player0041 joined the game
+[09:32:21] [Server thread/INFO]: Player0041[/127.0.0.1:56293] logged in with entity id 1739 at ([world]-9.5, 68.0, 4.5)
+[09:32:21] [User Authenticator #2/INFO]: UUID of player Player0042 is 8d4baae9-eec8-35f4-88a9-2e150ac2715e
+[09:32:21] [Server thread/INFO]: Player0042 joined the game
+[09:32:21] [Server thread/INFO]: Player0042[/127.0.0.1:56294] logged in with entity id 1740 at ([world]6.5, 69.0, 0.5)
+[09:32:22] [User Authenticator #2/INFO]: UUID of player Player0043 is 77b1b018-39b9-3e55-b2ea-d7f3ecbf72d0
+[09:32:22] [Server thread/INFO]: Player0043 joined the game
+[09:32:22] [Server thread/INFO]: Player0043[/127.0.0.1:56295] logged in with entity id 1741 at ([world]5.5, 69.0, -9.5)
+[09:32:22] [User Authenticator #2/INFO]: UUID of player Player0044 is e46b2919-4bf4-3bd1-aa36-05d52b00e17b
+[09:32:22] [Server thread/INFO]: Player0044 joined the game
+[09:32:22] [Server thread/INFO]: Player0044[/127.0.0.1:56296] logged in with entity id 1742 at ([world]-7.5, 68.0, 5.5)
+[09:32:22] [User Authenticator #2/INFO]: UUID of player Player0045 is 355893cf-4037-34d2-8ca6-05b5e27f1f43
+[09:32:22] [Server thread/INFO]: Player0045 joined the game
+[09:32:22] [Server thread/INFO]: Player0045[/127.0.0.1:56297] logged in with entity id 1743 at ([world]2.5, 64.0, 1.5)
+[09:32:22] [User Authenticator #2/INFO]: UUID of player Player0046 is 3816fc8b-f1ef-37f5-a05d-e68e689962cf
+[09:32:22] [Server thread/INFO]: Player0046 joined the game
+[09:32:22] [Server thread/INFO]: Player0046[/127.0.0.1:56298] logged in with entity id 1744 at ([world]8.5, 70.0, -6.5)
+[09:32:22] [User Authenticator #2/INFO]: UUID of player Player0047 is d30e16e0-ee28-35fa-9c42-cda9c5464741
+[09:32:22] [Server thread/INFO]: Player0047 joined the game
+[09:32:22] [Server thread/INFO]: Player0047[/127.0.0.1:56299] logged in with entity id 1745 at ([world]-6.5, 69.0, 3.5)
+[09:32:22] [User Authenticator #2/INFO]: UUID of player Player0048 is 22671617-aad1-30c4-8e34-f82296554ff7
+[09:32:22] [Server thread/INFO]: Player0048 joined the game
+[09:32:22] [Server thread/INFO]: Player0048[/127.0.0.1:56300] logged in with entity id 1746 at ([world]9.5, 70.0, -5.5)
+[09:32:22] [User Authenticator #2/INFO]: UUID of player Player0049 is 5a3a0034-8005-345b-9383-f5ead049b516
+[09:32:22] [Server thread/INFO]: Player0049 joined the game
+[09:32:22] [Server thread/INFO]: Player0049[/127.0.0.1:56301] logged in with entity id 1747 at ([world]-7.5, 64.0, -1.5)
+[09:33:30] [Server thread/INFO]: MarvelousAny has made the advancement [Monster Hunter]
+[09:33:39] [Server thread/INFO]: MarvelousAny lost connection: Disconnected
+[09:33:39] [Server thread/INFO]: MarvelousAny left the game
+[09:41:25] [User Authenticator #3/INFO]: UUID of player MarvelousAny is 6f99eb8d-5e7c-3a86-bd03-66284ecd8c90
+[09:41:25] [Server thread/INFO]: MarvelousAny joined the game
+[09:41:25] [Server thread/INFO]: MarvelousAny[/127.0.0.1:56649] logged in with entity id 2678 at ([world]-75.85484226160295, 66.0, -10.548888978977322)
+[09:41:44] [Server thread/INFO]: Player0003 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0003 left the game
+[09:41:44] [Server thread/INFO]: Player0004 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0004 left the game
+[09:41:44] [Server thread/INFO]: Player0005 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0005 left the game
+[09:41:44] [Server thread/INFO]: Player0006 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0006 left the game
+[09:41:44] [Server thread/INFO]: Player0007 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0007 left the game
+[09:41:44] [Server thread/INFO]: Player0008 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0008 left the game
+[09:41:44] [Server thread/INFO]: Player0009 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0009 left the game
+[09:41:44] [Server thread/INFO]: Player0010 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0010 left the game
+[09:41:44] [Server thread/INFO]: Player0011 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0011 left the game
+[09:41:44] [Server thread/INFO]: Player0012 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0012 left the game
+[09:41:44] [Server thread/INFO]: Player0013 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0013 left the game
+[09:41:44] [Server thread/INFO]: Player0014 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0014 left the game
+[09:41:44] [Server thread/INFO]: Player0015 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0015 left the game
+[09:41:44] [Server thread/INFO]: Player0016 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0016 left the game
+[09:41:44] [Server thread/INFO]: Player0017 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0017 left the game
+[09:41:44] [Server thread/INFO]: Player0018 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0018 left the game
+[09:41:44] [Server thread/INFO]: Player0019 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0019 left the game
+[09:41:44] [Server thread/INFO]: Player0020 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0020 left the game
+[09:41:44] [Server thread/INFO]: Player0021 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0021 left the game
+[09:41:44] [Server thread/INFO]: Player0022 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0022 left the game
+[09:41:44] [Server thread/INFO]: Player0023 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0023 left the game
+[09:41:44] [Server thread/INFO]: Player0024 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0024 left the game
+[09:41:44] [Server thread/INFO]: Player0025 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0025 left the game
+[09:41:44] [Server thread/INFO]: Player0026 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0026 left the game
+[09:41:44] [Server thread/INFO]: Player0027 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0027 left the game
+[09:41:44] [Server thread/INFO]: Player0028 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0028 left the game
+[09:41:44] [Server thread/INFO]: Player0029 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0029 left the game
+[09:41:44] [Server thread/INFO]: Player0030 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0030 left the game
+[09:41:44] [Server thread/INFO]: Player0031 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0031 left the game
+[09:41:44] [Server thread/INFO]: Player0032 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0032 left the game
+[09:41:44] [Server thread/INFO]: Player0033 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0033 left the game
+[09:41:44] [Server thread/INFO]: Player0034 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0034 left the game
+[09:41:44] [Server thread/INFO]: Player0035 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0035 left the game
+[09:41:44] [Server thread/INFO]: Player0036 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0036 left the game
+[09:41:44] [Server thread/INFO]: Player0037 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0037 left the game
+[09:41:44] [Server thread/INFO]: Player0038 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0038 left the game
+[09:41:44] [Server thread/INFO]: Player0039 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0039 left the game
+[09:41:44] [Server thread/INFO]: Player0040 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0040 left the game
+[09:41:44] [Server thread/INFO]: Player0041 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0041 left the game
+[09:41:44] [Server thread/INFO]: Player0042 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0042 left the game
+[09:41:44] [Server thread/INFO]: Player0043 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0043 left the game
+[09:41:44] [Server thread/INFO]: Player0044 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0044 left the game
+[09:41:44] [Server thread/INFO]: Player0045 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0045 left the game
+[09:41:44] [Server thread/INFO]: Player0046 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0046 left the game
+[09:41:44] [Server thread/INFO]: Player0047 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0047 left the game
+[09:41:44] [Server thread/INFO]: Player0048 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0048 left the game
+[09:41:44] [Server thread/INFO]: Player0049 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0049 left the game
+[09:41:44] [Server thread/INFO]: Player0000 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0000 left the game
+[09:41:44] [Server thread/INFO]: Player0001 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0001 left the game
+[09:41:44] [Server thread/INFO]: Player0002 lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Player0002 left the game
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0000 is ab761290-7fc7-34f8-84f0-ec12b9690242
+[09:41:52] [Server thread/INFO]: Player0000 joined the game
+[09:41:52] [Server thread/INFO]: Player0000[/127.0.0.1:56666] logged in with entity id 2737 at ([world]9.5, 69.0, -9.5)
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0001 is 9d6917b1-5b41-3d41-b1ca-4c4efcf34571
+[09:41:52] [Server thread/INFO]: Player0001 joined the game
+[09:41:52] [Server thread/INFO]: Player0001[/127.0.0.1:56667] logged in with entity id 2738 at ([world]-3.5, 69.0, -4.5)
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0002 is 1ecf24d5-5fb8-36cc-84bc-06f0f4bf78d7
+[09:41:52] [Server thread/INFO]: Player0002 joined the game
+[09:41:52] [Server thread/INFO]: Player0002[/127.0.0.1:56670] logged in with entity id 2739 at ([world]4.5, 64.0, 1.5)
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0003 is c368170b-ead2-361b-93f2-3b695c017788
+[09:41:52] [Server thread/INFO]: Player0003 joined the game
+[09:41:52] [Server thread/INFO]: Player0003[/127.0.0.1:56671] logged in with entity id 2740 at ([world]10.5, 73.0, 8.5)
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0004 is 7cbc6a8a-e3b1-3cb7-a0d9-a7ae2dea95f9
+[09:41:52] [Server thread/INFO]: Player0004 joined the game
+[09:41:52] [Server thread/INFO]: Player0004[/127.0.0.1:56672] logged in with entity id 2741 at ([world]7.5, 64.0, 3.5)
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0005 is f3cf23b9-ecbc-3e08-b442-0b2e3c0c0739
+[09:41:52] [Server thread/INFO]: Player0005 joined the game
+[09:41:52] [Server thread/INFO]: Player0005[/127.0.0.1:56673] logged in with entity id 2742 at ([world]-9.5, 68.0, 3.5)
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0006 is 10a5966e-cf00-3fbb-a361-f1c7fb9d042c
+[09:41:52] [Server thread/INFO]: Player0006 joined the game
+[09:41:52] [Server thread/INFO]: Player0006[/127.0.0.1:56675] logged in with entity id 2743 at ([world]-1.5, 64.0, 6.5)
+[09:41:52] [User Authenticator #3/INFO]: UUID of player Player0007 is 218a7d45-0e3f-313b-b0f1-ddad3b926838
+[09:41:53] [Server thread/INFO]: Player0007 joined the game
+[09:41:53] [Server thread/INFO]: Player0007[/127.0.0.1:56676] logged in with entity id 2745 at ([world]10.5, 69.0, -9.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0008 is f55709ae-30d2-345f-9625-c4df5ec4d9a6
+[09:41:53] [Server thread/INFO]: Player0008 joined the game
+[09:41:53] [Server thread/INFO]: Player0008[/127.0.0.1:56677] logged in with entity id 2746 at ([world]-0.5, 64.0, -6.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0009 is b172082a-1d57-3fd5-8688-f2dce0772e90
+[09:41:53] [Server thread/INFO]: Player0009 joined the game
+[09:41:53] [Server thread/INFO]: Player0009[/127.0.0.1:56678] logged in with entity id 2747 at ([world]-8.5, 64.0, -8.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0010 is aea0bca1-8f26-3164-9212-3c9c7434c0c8
+[09:41:53] [Server thread/INFO]: Player0010 joined the game
+[09:41:53] [Server thread/INFO]: Player0010[/127.0.0.1:56679] logged in with entity id 2749 at ([world]-7.5, 64.0, -1.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0011 is 79a27b57-72bb-35ad-a3b5-5b1768300c7a
+[09:41:53] [Server thread/INFO]: Player0011 joined the game
+[09:41:53] [Server thread/INFO]: Player0011[/127.0.0.1:56680] logged in with entity id 2750 at ([world]5.5, 64.0, 4.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0012 is 0f96386e-b807-39e8-8e03-2a6721dbb877
+[09:41:53] [Server thread/INFO]: Player0012 joined the game
+[09:41:53] [Server thread/INFO]: Player0012[/127.0.0.1:56681] logged in with entity id 2751 at ([world]4.5, 64.0, -5.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0013 is 24b4d4de-03d5-3d16-ab0a-24d08378e4c7
+[09:41:53] [Server thread/INFO]: Player0013 joined the game
+[09:41:53] [Server thread/INFO]: Player0013[/127.0.0.1:56682] logged in with entity id 2752 at ([world]0.5, 65.0, 7.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0014 is d6f51258-ac39-320b-9ac1-7433cde81589
+[09:41:53] [Server thread/INFO]: Player0014 joined the game
+[09:41:53] [Server thread/INFO]: Player0014[/127.0.0.1:56683] logged in with entity id 2753 at ([world]-7.5, 68.0, 6.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0015 is 1553d934-2461-3ee8-97ea-296fda188edf
+[09:41:53] [Server thread/INFO]: Player0015 joined the game
+[09:41:53] [Server thread/INFO]: Player0015[/127.0.0.1:56684] logged in with entity id 2754 at ([world]8.5, 64.0, -1.5)
+[09:41:53] [User Authenticator #3/INFO]: UUID of player Player0016 is 71cf56e4-d503-3bbd-bfac-2e7683e0909b
+[09:41:53] [Server thread/INFO]: Player0016 joined the game
+[09:41:53] [Server thread/INFO]: Player0016[/127.0.0.1:56685] logged in with entity id 2755 at ([world]-8.5, 64.0, -1.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0017 is d32026a7-b0e7-3340-8d39-ec5721016c88
+[09:41:54] [Server thread/INFO]: Player0017 joined the game
+[09:41:54] [Server thread/INFO]: Player0017[/127.0.0.1:56686] logged in with entity id 2756 at ([world]-0.5, 64.0, 5.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0018 is e5c691b7-ea0d-3967-a92c-407951f49f49
+[09:41:54] [Server thread/INFO]: Player0018 joined the game
+[09:41:54] [Server thread/INFO]: Player0018[/127.0.0.1:56687] logged in with entity id 2757 at ([world]-2.5, 65.0, 7.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0019 is 37a413c5-b61c-3960-942e-37b7826b664d
+[09:41:54] [Server thread/INFO]: Player0019 joined the game
+[09:41:54] [Server thread/INFO]: Player0019[/127.0.0.1:56689] logged in with entity id 2758 at ([world]-8.5, 67.0, 3.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0020 is 93afbae0-9eae-3e5b-914b-cd13a3730e9d
+[09:41:54] [Server thread/INFO]: Player0020 joined the game
+[09:41:54] [Server thread/INFO]: Player0020[/127.0.0.1:56690] logged in with entity id 2759 at ([world]-7.5, 68.0, 5.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0021 is 2d00fbef-ae7f-3ac4-9158-ec120e69dbba
+[09:41:54] [Server thread/INFO]: Player0021 joined the game
+[09:41:54] [Server thread/INFO]: Player0021[/127.0.0.1:56691] logged in with entity id 2761 at ([world]5.5, 64.0, 4.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0022 is 02110d87-ed68-317e-947a-bc4b8c9de524
+[09:41:54] [Server thread/INFO]: Player0022 joined the game
+[09:41:54] [Server thread/INFO]: Player0022[/127.0.0.1:56692] logged in with entity id 2762 at ([world]-5.5, 70.0, -6.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0023 is 43227aed-24b7-3fc8-91ce-1786e3fdda99
+[09:41:54] [Server thread/INFO]: Player0023 joined the game
+[09:41:54] [Server thread/INFO]: Player0023[/127.0.0.1:56693] logged in with entity id 2763 at ([world]-0.5, 64.0, 6.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0024 is 13509dac-fd85-3ae7-8d17-652574cd3e32
+[09:41:54] [Server thread/INFO]: Player0024 joined the game
+[09:41:54] [Server thread/INFO]: Player0024[/127.0.0.1:56694] logged in with entity id 2764 at ([world]-3.5, 64.0, 6.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0025 is af99ba9e-0855-3703-bdbe-f850c1bb318b
+[09:41:54] [Server thread/INFO]: Player0025 joined the game
+[09:41:54] [Server thread/INFO]: Player0025[/127.0.0.1:56695] logged in with entity id 2765 at ([world]10.5, 73.0, 6.5)
+[09:41:54] [User Authenticator #3/INFO]: UUID of player Player0026 is 1ff4cca5-8058-386b-b836-346afd71cb2b
+[09:41:54] [Server thread/INFO]: Player0026 joined the game
+[09:41:54] [Server thread/INFO]: Player0026[/127.0.0.1:56696] logged in with entity id 2766 at ([world]-8.5, 67.0, 2.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0027 is 494f7093-fb54-392e-8ef4-f266357589d6
+[09:41:55] [Server thread/INFO]: Player0027 joined the game
+[09:41:55] [Server thread/INFO]: Player0027[/127.0.0.1:56697] logged in with entity id 2767 at ([world]6.5, 69.0, -0.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0028 is 01d5eec3-b1fd-3300-81af-2d7a4aa1cf7c
+[09:41:55] [Server thread/INFO]: Player0028 joined the game
+[09:41:55] [Server thread/INFO]: Player0028[/127.0.0.1:56698] logged in with entity id 2768 at ([world]-2.5, 69.0, 0.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0029 is 998f2101-635c-3b40-adb1-d26c501609f3
+[09:41:55] [Server thread/INFO]: Player0029 joined the game
+[09:41:55] [Server thread/INFO]: Player0029[/127.0.0.1:56699] logged in with entity id 2769 at ([world]-6.5, 68.0, 5.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0030 is 6ace46fa-8af8-32e4-b576-bf656e4fce2a
+[09:41:55] [Server thread/INFO]: Player0030 joined the game
+[09:41:55] [Server thread/INFO]: Player0030[/127.0.0.1:56700] logged in with entity id 2770 at ([world]7.5, 67.0, 8.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0031 is 950a785f-32a3-37be-a66a-76e172f5d4bf
+[09:41:55] [Server thread/INFO]: Player0031 joined the game
+[09:41:55] [Server thread/INFO]: Player0031[/127.0.0.1:56701] logged in with entity id 2771 at ([world]2.5, 64.0, -2.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0032 is e11aca1f-991d-39ae-9244-7f2058a3de6e
+[09:41:55] [Server thread/INFO]: Player0032 joined the game
+[09:41:55] [Server thread/INFO]: Player0032[/127.0.0.1:56702] logged in with entity id 2772 at ([world]8.5, 68.0, -7.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0033 is 9b3f78c1-6bb4-3377-86ba-c263e9bf5828
+[09:41:55] [Server thread/INFO]: Player0033 joined the game
+[09:41:55] [Server thread/INFO]: Player0033[/127.0.0.1:56703] logged in with entity id 2773 at ([world]1.5, 64.0, -3.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0034 is 1c2c57ff-2e09-3321-9851-b6b8904c969a
+[09:41:55] [Server thread/INFO]: Player0034 joined the game
+[09:41:55] [Server thread/INFO]: Player0034[/127.0.0.1:56704] logged in with entity id 2775 at ([world]-9.5, 67.0, -0.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0035 is f94ee3ba-48ae-3125-ad47-43c8584e47ae
+[09:41:55] [Server thread/INFO]: Player0035 joined the game
+[09:41:55] [Server thread/INFO]: Player0035[/127.0.0.1:56705] logged in with entity id 2776 at ([world]6.5, 64.0, -8.5)
+[09:41:55] [User Authenticator #3/INFO]: UUID of player Player0036 is f27a685b-8872-3c1b-afc8-f367ab20da7e
+[09:41:55] [Server thread/INFO]: Player0036 joined the game
+[09:41:56] [Server thread/INFO]: Player0036[/127.0.0.1:56706] logged in with entity id 2777 at ([world]9.5, 64.0, 1.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0037 is a009f5c2-ffdb-347d-b157-da08d8c4b089
+[09:41:56] [Server thread/INFO]: Player0037 joined the game
+[09:41:56] [Server thread/INFO]: Player0037[/127.0.0.1:56707] logged in with entity id 2778 at ([world]-5.5, 68.0, 1.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0038 is f1759c76-bf4e-33aa-bdf5-7c7c40c17c1c
+[09:41:56] [Server thread/INFO]: Player0038 joined the game
+[09:41:56] [Server thread/INFO]: Player0038[/127.0.0.1:56708] logged in with entity id 2779 at ([world]1.5, 64.0, 1.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0039 is 43fd148a-47b1-36f5-b077-f6eb6ab15967
+[09:41:56] [Server thread/INFO]: Player0039 joined the game
+[09:41:56] [Server thread/INFO]: Player0039[/127.0.0.1:56709] logged in with entity id 2780 at ([world]3.5, 71.0, -9.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0040 is ef9d7e8d-9177-3106-b2e7-b0a1a46450cc
+[09:41:56] [Server thread/INFO]: Player0040 joined the game
+[09:41:56] [Server thread/INFO]: Player0040[/127.0.0.1:56710] logged in with entity id 2781 at ([world]-6.5, 70.0, 10.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0041 is 1024b6af-c44b-3bf8-ac37-e7b582d302a2
+[09:41:56] [Server thread/INFO]: Player0041 joined the game
+[09:41:56] [Server thread/INFO]: Player0041[/127.0.0.1:56711] logged in with entity id 2782 at ([world]-9.5, 68.0, 4.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0042 is 8d4baae9-eec8-35f4-88a9-2e150ac2715e
+[09:41:56] [Server thread/INFO]: Player0042 joined the game
+[09:41:56] [Server thread/INFO]: Player0042[/127.0.0.1:56712] logged in with entity id 2783 at ([world]6.5, 69.0, 0.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0043 is 77b1b018-39b9-3e55-b2ea-d7f3ecbf72d0
+[09:41:56] [Server thread/INFO]: Player0043 joined the game
+[09:41:56] [Server thread/INFO]: Player0043[/127.0.0.1:56713] logged in with entity id 2785 at ([world]5.5, 69.0, -9.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0044 is e46b2919-4bf4-3bd1-aa36-05d52b00e17b
+[09:41:56] [Server thread/INFO]: Player0044 joined the game
+[09:41:56] [Server thread/INFO]: Player0044[/127.0.0.1:56714] logged in with entity id 2786 at ([world]-7.5, 68.0, 5.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0045 is 355893cf-4037-34d2-8ca6-05b5e27f1f43
+[09:41:56] [Server thread/INFO]: Player0045 joined the game
+[09:41:56] [Server thread/INFO]: Player0045[/127.0.0.1:56715] logged in with entity id 2787 at ([world]2.5, 64.0, 1.5)
+[09:41:56] [User Authenticator #3/INFO]: UUID of player Player0046 is 3816fc8b-f1ef-37f5-a05d-e68e689962cf
+[09:41:57] [Server thread/INFO]: Player0046 joined the game
+[09:41:57] [Server thread/INFO]: Player0046[/127.0.0.1:56716] logged in with entity id 2788 at ([world]8.5, 70.0, -6.5)
+[09:41:57] [User Authenticator #3/INFO]: UUID of player Player0047 is d30e16e0-ee28-35fa-9c42-cda9c5464741
+[09:41:57] [Server thread/INFO]: Player0047 joined the game
+[09:41:57] [Server thread/INFO]: Player0047[/127.0.0.1:56717] logged in with entity id 2789 at ([world]-6.5, 69.0, 3.5)
+[09:41:57] [User Authenticator #3/INFO]: UUID of player Player0048 is 22671617-aad1-30c4-8e34-f82296554ff7
+[09:41:57] [Server thread/INFO]: Player0048 joined the game
+[09:41:57] [Server thread/INFO]: Player0048[/127.0.0.1:56718] logged in with entity id 2790 at ([world]9.5, 70.0, -5.5)
+[09:41:57] [User Authenticator #3/INFO]: UUID of player Player0049 is 5a3a0034-8005-345b-9383-f5ead049b516
+[09:41:57] [Server thread/INFO]: Player0049 joined the game
+[09:41:57] [Server thread/INFO]: Player0049[/127.0.0.1:56719] logged in with entity id 2791 at ([world]-7.5, 64.0, -1.5)
+[09:54:34] [Server thread/INFO]: Stopping server
+[09:54:34] [Server thread/INFO]: [PacketSniffer] Disabling packetsniffer v1.0-SNAPSHOT
+[09:54:34] [Server thread/INFO]: Saving players
+[09:54:34] [Server thread/INFO]: MarvelousAny lost connection: Server closed
+[09:54:34] [Server thread/INFO]: MarvelousAny left the game
+[09:54:34] [Server thread/INFO]: Player0000 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0000 left the game
+[09:54:34] [Server thread/INFO]: Player0001 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0001 left the game
+[09:54:34] [Server thread/INFO]: Player0002 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0002 left the game
+[09:54:34] [Server thread/INFO]: Player0003 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0003 left the game
+[09:54:34] [Server thread/INFO]: Player0004 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0004 left the game
+[09:54:34] [Server thread/INFO]: Player0005 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0005 left the game
+[09:54:34] [Server thread/INFO]: Player0006 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0006 left the game
+[09:54:34] [Server thread/INFO]: Player0007 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0007 left the game
+[09:54:34] [Server thread/INFO]: Player0008 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0008 left the game
+[09:54:34] [Server thread/INFO]: Player0009 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0009 left the game
+[09:54:34] [Server thread/INFO]: Player0010 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0010 left the game
+[09:54:34] [Server thread/INFO]: Player0011 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0011 left the game
+[09:54:34] [Server thread/INFO]: Player0012 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0012 left the game
+[09:54:34] [Server thread/INFO]: Player0013 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0013 left the game
+[09:54:34] [Server thread/INFO]: Player0014 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0014 left the game
+[09:54:34] [Server thread/INFO]: Player0015 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0015 left the game
+[09:54:34] [Server thread/INFO]: Player0016 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0016 left the game
+[09:54:34] [Server thread/INFO]: Player0017 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0017 left the game
+[09:54:34] [Server thread/INFO]: Player0018 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0018 left the game
+[09:54:34] [Server thread/INFO]: Player0019 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0019 left the game
+[09:54:34] [Server thread/INFO]: Player0020 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0020 left the game
+[09:54:34] [Server thread/INFO]: Player0021 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0021 left the game
+[09:54:34] [Server thread/INFO]: Player0022 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0022 left the game
+[09:54:34] [Server thread/INFO]: Player0023 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0023 left the game
+[09:54:34] [Server thread/INFO]: Player0024 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0024 left the game
+[09:54:34] [Server thread/INFO]: Player0025 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0025 left the game
+[09:54:34] [Server thread/INFO]: Player0026 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0026 left the game
+[09:54:34] [Server thread/INFO]: Player0027 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0027 left the game
+[09:54:34] [Server thread/INFO]: Player0028 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0028 left the game
+[09:54:34] [Server thread/INFO]: Player0029 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0029 left the game
+[09:54:34] [Server thread/INFO]: Player0030 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0030 left the game
+[09:54:34] [Server thread/INFO]: Player0031 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0031 left the game
+[09:54:34] [Server thread/INFO]: Player0032 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0032 left the game
+[09:54:34] [Server thread/INFO]: Player0033 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0033 left the game
+[09:54:34] [Server thread/INFO]: Player0034 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0034 left the game
+[09:54:34] [Server thread/INFO]: Player0035 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0035 left the game
+[09:54:34] [Server thread/INFO]: Player0036 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0036 left the game
+[09:54:34] [Server thread/INFO]: Player0037 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0037 left the game
+[09:54:34] [Server thread/INFO]: Player0038 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0038 left the game
+[09:54:34] [Server thread/INFO]: Player0039 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0039 left the game
+[09:54:34] [Server thread/INFO]: Player0040 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0040 left the game
+[09:54:34] [Server thread/INFO]: Player0041 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0041 left the game
+[09:54:34] [Server thread/INFO]: Player0042 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0042 left the game
+[09:54:34] [Server thread/INFO]: Player0043 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0043 left the game
+[09:54:34] [Server thread/INFO]: Player0044 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0044 left the game
+[09:54:34] [Server thread/INFO]: Player0045 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0045 left the game
+[09:54:34] [Server thread/INFO]: Player0046 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0046 left the game
+[09:54:34] [Server thread/INFO]: Player0047 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0047 left the game
+[09:54:34] [Server thread/INFO]: Player0048 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0048 left the game
+[09:54:34] [Server thread/INFO]: Player0049 lost connection: Server closed
+[09:54:34] [Server thread/INFO]: Player0049 left the game
+[09:54:34] [Server thread/INFO]: Saving worlds
+[09:54:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:54:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[09:54:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[09:54:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Saved 1281 block chunks, 305 entity chunks, 0 poi chunks in world 'world' in 0.55s
+[09:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 23 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[09:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[09:54:35] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[09:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:54:35] [Server thread/INFO]: Flushing Chunk IO
+[09:54:35] [Server thread/INFO]: Closing Thread Pool
+[09:54:35] [Server thread/INFO]: Closing Server
