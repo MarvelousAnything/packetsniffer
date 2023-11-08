@@ -1,11 +1,14 @@
 package com.marvelousanything
 
+import io.netty.channel.ChannelDuplexHandler
 import io.netty.channel.ChannelHandlerContext
+import io.netty.channel.ChannelPromise
 import io.netty.handler.codec.MessageToMessageDecoder
 import io.prometheus.metrics.core.metrics.Counter
 import io.prometheus.metrics.core.metrics.Gauge
 import io.prometheus.metrics.exporter.httpserver.HTTPServer
 import io.prometheus.metrics.instrumentation.jvm.JvmMetrics
+import net.minecraft.network.Connection
 import net.minecraft.network.protocol.Packet
 import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer
 import org.bukkit.entity.Player
@@ -14,6 +17,7 @@ import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.event.player.PlayerQuitEvent
 import org.bukkit.plugin.java.JavaPlugin
+import java.util.*
 
 class PacketSnifferPlugin : JavaPlugin() {
     override fun onEnable() {
@@ -38,16 +42,16 @@ class PacketSnifferPlugin : JavaPlugin() {
     }
 
     companion object {
-        var players: MutableList<Player> = mutableListOf()
+        var players: MutableList<Player> = ArrayList()
         lateinit var packetCounter: Counter
         lateinit var onlinePlayerGauge: Gauge
         lateinit var httpServer: HTTPServer
-        fun registerPlayer(player: Player) {
-            if (players.contains(player)) return
 
-            val channel = (player as CraftPlayer).handle.connection.connection.channel;
-            channel.pipeline().addAfter("decoder", "PacketSniffer", SnifferDecoder())
-            players += player
+        fun registerPlayer(player: Player) {
+            val connection = (player as CraftPlayer).handle.connection
+            val channel = (connection.javaClass.getField("h").get(connection) as Connection).channel
+            val pipeline = channel.pipeline()
+            pipeline.addBefore("packet_handler", player.getName(), SnifferDecoder())
         }
     }
 }

@@ -21,7 +21,9 @@ dependencies {
     implementation("io.prometheus:prometheus-metrics-core:1.0.0")
     implementation("io.prometheus:prometheus-metrics-instrumentation-jvm:1.0.0")
     implementation("io.prometheus:prometheus-metrics-exporter-httpserver:1.0.0")
+    implementation(kotlin("reflect"))
 }
+
 
 kotlin {
     jvmToolchain(17)
