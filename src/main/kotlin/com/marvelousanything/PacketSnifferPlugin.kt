@@ -10,6 +10,8 @@ import net.minecraft.network.Connection
 import net.minecraft.network.protocol.Packet
 import net.minecraft.network.protocol.game.ClientGamePacketListener
 import net.minecraft.network.protocol.game.ClientboundAddEntityPacket
+import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket
+import net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket
 import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer
 import org.bukkit.entity.Player
 import org.bukkit.event.EventHandler
@@ -62,7 +64,11 @@ class SnifferDecoder : MessageToMessageDecoder<Packet<*>>() {
             out?.add(packet)
         }
 
-        PacketSnifferPlugin.packetCounter.labelValues("${packet!!::class.simpleName}").inc()
+        if (packet is ClientboundTeleportEntityPacket){
+            PacketSnifferPlugin.packetCounter.labelValues("${packet!!::class.simpleName}").inc()
+        }
+
+
     }
 }
 
