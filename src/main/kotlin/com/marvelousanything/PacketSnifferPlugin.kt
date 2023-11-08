@@ -24,7 +24,7 @@ class PacketSnifferPlugin : JavaPlugin() {
         logger.info("PacketSnifferEnabled")
         JvmMetrics.builder().register()
         packetCounter = Counter.builder().name("minecraft_packets").help("minecraft packets").labelNames("packets").register()
-        onlinePlayerGauge = Gauge.builder().name("online_players").help("minecraft players").labelNames("name", "uuid").register()
+        onlinePlayerGauge = Gauge.builder().name("minecraft_players").help("minecraft players").labelNames("player_count").register()
 
         try {
             httpServer = HTTPServer.builder().port(9940).buildAndStart()
