@@ -1,8 +1,6 @@
 package com.marvelousanything
 
-import io.netty.channel.ChannelDuplexHandler
 import io.netty.channel.ChannelHandlerContext
-import io.netty.channel.ChannelPromise
 import io.netty.handler.codec.MessageToMessageDecoder
 import io.prometheus.metrics.core.metrics.Counter
 import io.prometheus.metrics.core.metrics.Gauge
@@ -10,6 +8,8 @@ import io.prometheus.metrics.exporter.httpserver.HTTPServer
 import io.prometheus.metrics.instrumentation.jvm.JvmMetrics
 import net.minecraft.network.Connection
 import net.minecraft.network.protocol.Packet
+import net.minecraft.network.protocol.game.ClientGamePacketListener
+import net.minecraft.network.protocol.game.ClientboundAddEntityPacket
 import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer
 import org.bukkit.entity.Player
 import org.bukkit.event.EventHandler
@@ -61,6 +61,7 @@ class SnifferDecoder : MessageToMessageDecoder<Packet<*>>() {
         if (packet != null) {
             out?.add(packet)
         }
+
         PacketSnifferPlugin.packetCounter.labelValues("${packet!!::class.simpleName}").inc()
     }
 }
